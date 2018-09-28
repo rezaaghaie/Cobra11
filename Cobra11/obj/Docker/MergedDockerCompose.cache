@@ -1,0 +1,11 @@
+services:
+  cobra11:
+    build:
+      context: C:\Users\r.mashhadiAghaie\source\repos\Cobra11
+      dockerfile: Cobra11/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: cobra11
+    ports:
+    - 80/tcp
+version: '3.0'
