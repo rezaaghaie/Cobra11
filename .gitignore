@@ -1,5 +1,8 @@
 /.vs
-
-*/bin
-*/obj
+/Cobra11/.vs/*
+/Cobra11/bin
+/Cobra11/obj
 /Cobra11/.vs/Cobra11/v15/Server/sqlite3/*.lock
+/Cobra11/.vs/Cobra11/v15/Server/sqlite3/storage.ide
+/Cobra11/.vs/Cobra11/v15/Server/sqlite3/storage.ide-shm
+/Cobra11/.vs/Cobra11/v15/Server/sqlite3/storage.ide-wal
