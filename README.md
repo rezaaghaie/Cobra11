@@ -9,6 +9,6 @@ To find corresponded iOS application, visit the following link:
 
 ### Web Application
 
-To find corresponded iOS application, visit the following link:
+To find corresponded Web application, visit the following link:
 
 [https://github.com/Javid-Izadfar/cobra11_nuxt.git]
