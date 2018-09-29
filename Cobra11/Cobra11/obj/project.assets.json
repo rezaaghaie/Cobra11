@@ -11529,7 +11529,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://192.168.53.11:1480/repository/indra-dev-nuget": {},
         "http://192.168.53.11:1480/repository/nuget-group": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {

@@ -5,5 +5,5 @@
 
 To find corresponded iOS application, visit the following link:
 
-[https://gitlab.com/hassaniiii/cobra11_ios]
+[http://gitlab.com/hassaniiii/cobra11_ios]
 

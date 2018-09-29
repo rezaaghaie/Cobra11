@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  cobra11:
-    image: cobra11
-    build:
-      context: .
-      dockerfile: Cobra11/Dockerfile
