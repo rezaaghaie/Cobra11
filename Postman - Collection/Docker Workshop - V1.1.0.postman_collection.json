@@ -1,0 +1,119 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Docker Workshop - V1.1.0",
+		"_postman_id": "44b633f8-c4c8-552c-51ff-5b0349df09c8",
+		"description": "ToDo App, created in docker workshop...In Cobra11 Team :)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Console Write",
+			"description": "- Write In Console for test in docker WorkShop",
+			"item": [
+				{
+					"name": "Write In Console",
+					"request": {
+						"url": "https://localhost:2018/api/Console",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ToDo Item CRUD",
+			"description": "",
+			"item": [
+				{
+					"name": "Create New ToDo Item",
+					"request": {
+						"url": "https://localhost:2018/api/todo/",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\" : \"test\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get All ToDo Items",
+					"request": {
+						"url": "https://localhost:2018/api/todo",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get One ToDo Item By Id:\n\t\thttps://localhost:2018/api/todo/{id}"
+					},
+					"response": []
+				},
+				{
+					"name": "Get ToDo Item By Id",
+					"request": {
+						"url": "https://localhost:2018/api/todo/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get One ToDo Item By Id:\n\t\thttps://localhost:2018/api/todo/{id}"
+					},
+					"response": []
+				},
+				{
+					"name": "Update ToDo Item By Id",
+					"request": {
+						"url": "https://localhost:2018/api/todo/2",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Title\":\"Test2\",\n\t\"IsCompleted\" : \"False\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Delete ToDo Item By Id",
+					"request": {
+						"url": "https://localhost:2018/api/todo/2",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
